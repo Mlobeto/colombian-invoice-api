@@ -1,0 +1,11 @@
+{
+  "name": "invoiceapi",
+  "version": "1.0.0",
+  "description": "colombian-invoice-api",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Mlobeto",
+  "license": "ISC"
+}
