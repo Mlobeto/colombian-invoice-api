@@ -1,0 +1,141 @@
+{
+    "stoken": "0000000000",
+    "jApi": {
+        "sMethod": "classTaxxa.fjDocumentAdd",
+        "jParams": {
+            "wVersionUBL": 2.1,
+            "wenvironment": "test",
+            "jDocument": {
+                "wdocumenttype": "Invoice",
+                "wdocumenttypecode": "01",
+                "scustomizationid": "10",
+                "wcurrency": "COP",
+                "sdocumentprefix": "SETP",
+                "sdocumentsuffix": "990000000",
+                "tissuedate": "2024-05-28 13:59:21",
+                "tduedate": "2024-04-17",
+                "wpaymentmeans": 1,
+                "wpaymentmethod": "10",
+                "nlineextensionamount": 630500,
+                "ntaxexclusiveamount": 630000,
+                "ntaxinclusiveamount": 750200.00,
+                "npayableamount": 750200,
+                "snotes": "Notas a factura comentarios",
+                "snotetop": "IVA Régimen Común No somos Agentes de Retención de IVA No somos Grandes Contribuyentes Actividad Económica ICA 4520 9.66 X 1000",
+                "sorderreference": "23548",
+                "tdatereference": "2024-01-17",
+                "jdocumentitems": {
+                    "0": {
+                        "jextrainfo": {
+                            "sbarcode": "021566",
+                            "tdateorder": "2024-01-01",
+                            "sBrandName": "xxxxxxx",
+                            "sModelName": "XXXXX"
+                        },
+                        "sdescription": "PINTURA",
+                        "snotes": "",
+                        "wunitcode": "und",
+                        "sgroupname": "alimentos",
+                        "sstandarditemidentification": "00235",
+                        "sstandardidentificationcode": "999",
+                        "nunitprice": "700000",
+                        "nUserTotal": 630000,
+                        "nquantity": "1.00",
+                        "adescription": {
+                            "0": "Descripción Adicional Item",
+                            "1": "Descripción Adicional Item",
+                            "2": "Descripción Adicional Item",
+                            "3": "Descripción Adicional Item",
+                            "4": "Descripción Adicional Item"
+                        },
+                        "jtax": {
+                            "jiva": {
+                                "nrate": 19,
+                                "sname": "IVA",
+                                "namount": 119700,
+                                "nbaseamount": 630000
+                            }
+                        },
+                        "aallowancecharge": {
+                            "1": {
+                                "schargeindicator": "false",
+                                "sallowancechargereasoncode": "00",
+                                "sallowancechargereason": "Descuento por volumen",
+                                "nrate": 10,
+                                "nbaseamount": 700000,
+                                "namount": 70000
+                            }
+                        }
+                    },
+                    "1": {
+                        "jextrainfo": {
+                            "sbarcode": "021566",
+                            "tdateorder": "2024-01-01",
+                            "sBrandName": "xxxxxxx",
+                            "sModelName": "XXXXX"
+                        },
+                        "sdescription": "PINTURA",
+                        "snotes": "",
+                        "wunitcode": "und",
+                        "sgroupname": "alimentos",
+                        "sstandarditemidentification": "00235",
+                        "sstandardidentificationcode": "999",
+                        "nunitprice": "500",
+                        "nusertotal": 500,
+                        "nquantity": "1.00",
+                        "adescription": {
+                            "0": "Descripción Adicional Item",
+                            "1": "Descripción Adicional Item",
+                            "2": "Descripción Adicional Item",
+                            "3": "Descripción Adicional Item",
+                            "4": "Descripción Adicional Item"
+                        }
+                    }
+                },
+                "jseller": {
+                    "wlegalorganizationtype": "person",
+                    "sfiscalresponsibilities": "R-99-PN",
+                    "sdocid": "901402281",
+                    "sdoctype": "NIT",
+                    "ssellername": "RAZON SOCIAL DEL VENDEDOR COMO SE  ENCUENTRA EN EL RUT",
+                    "ssellerbrand": "NOMBRE COMERCIAL DEL ESTABLECIMIENTO",
+                    "scontactperson": "NOMBRE PERSONA DE CONTACTO",
+                    "saddresszip": "110001",
+                    "wdepartmentcode": "11",
+                    "wtowncode ": "11001",
+                    "scityname": "BOGOTA",
+                    "jcontact": {
+                        "selectronicmail": "correo@correo.com",
+                        "jregistrationaddress": {
+                            "wdepartmentcode": "85",
+                            "scityname": "RIOHACHA - LA GUAJIRA",
+                            "saddressline1": "CL 13 11 75",
+                            "scountrycode": "CO",
+                            "wprovincecode": "44001",
+                            "szip": "440001",
+                            "sdepartmentname": "GUAJIRA"
+                        }
+                    }
+                },
+                "jbuyer": {
+                    "wlegalorganizationtype": "person",
+                    "scostumername": "CONSUMIDOR FINAL",
+                    "stributaryidentificationkey": "ZZ",
+                    "stributaryidentificationname": "No aplica",
+                    "sfiscalresponsibilities": "R-99-PN",
+                    "sfiscalregime": "48",
+                    "jpartylegalentity": {
+                        "wdoctype": "CC",
+                        "sdocno": "222222222222",
+                        "scorporateregistrationschemename": "CONSUMIDOR FINAL"
+                    },
+                    "jcontact": {
+                        "scontactperson": "CONSUMIDOR FINAL",
+                        "selectronicmail": "xxxxxxxxxxxxxxxxxxxxxx",
+                        "stelephone": "0000000"
+                    }
+                }
+            }
+        }
+    }
+}
