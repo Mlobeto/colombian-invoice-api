@@ -1,8 +1,9 @@
 // models/Invoice.js
 const { DataTypes } = require('sequelize');
-const sequelize = require('../config/database');  // Importa tu configuración de la base de datos
 
-const Invoice = sequelize.define('Invoice', {
+
+module.exports = (sequelize) => {
+  const Invoice =sequelize.define('Invoice', {
   id: {
     type: DataTypes.UUID,
     defaultValue: DataTypes.UUIDV4,
@@ -25,5 +26,5 @@ const Invoice = sequelize.define('Invoice', {
     defaultValue: DataTypes.NOW
   }
 });
-
-module.exports = Invoice;
+return Invoice;
+}
