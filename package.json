@@ -1,13 +1,13 @@
 {
-  "name": "invoiceapi",
+  "name": "colombian-invoice-library",
   "version": "1.0.0",
-  "description": "colombian-invoice-api",
-  "main": "index.js",
+  "description": "A library for managing Colombian invoices using Taxxa API",
+  "main": "lib/index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon -L index.js",
-    "build": "node index.js"
-  },
+  "start": "node index.js",
+  "dev": "nodemon -L index.js",
+  "build": "node lib/index.js"
+},
   "author": "Mlobeto",
   "license": "ISC",
   "dependencies": {
@@ -23,6 +23,18 @@
     "sequelize-cli": "^6.6.2"
   },
   "devDependencies": {
-    "nodemon": "^3.1.7"
-  }
+     "jest": "^29.7.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mlobeto/colombian-invoice-api.git"
+  },
+  "keywords": [
+    "invoice",
+    "colombia",
+    "taxxa",
+    "api",
+    "library"
+  ]
 }
+
